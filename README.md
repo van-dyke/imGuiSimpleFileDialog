@@ -6,10 +6,12 @@ Under coding. Stay tuned.
 Example:
 
 ```cpp
+#include "FileDialog.h"
 
-using fd = ImGuiFileSystem::FileDialogImpl;
+using FD = ImGuiFileSystem::FileDialog< ImGuiFileSystem::FileDialogImpl >;
 ...
-ImGuiFileSystem::FileDialog< fd >::GetInstance().Open( [](std::string selected_path) { /* process selected path */ } );
+
+FD::GetInstance().Open( [](std::string selected_path) { /* process selected path */ } );
 
 ```
 ![](FileDialog.gif)
