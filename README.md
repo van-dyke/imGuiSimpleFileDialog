@@ -1,6 +1,7 @@
 # Simple File Dialog for imGUI library
 
 Under coding. Stay tuned.
+Bugs? Suggestions? Feel free to PM me or modify and commit code ;)
 
 Example:
 
