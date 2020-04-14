@@ -7,7 +7,9 @@ Example:
 
 ```cpp
 
-ImGuiFileSystem::FileDialog::GetInstance().Open( [](std::string selected_path) { /* process selected path */ );
+using fd = ImGuiFileSystem::FileDialogImpl;
+...
+ImGuiFileSystem::FileDialog< fd >::GetInstance().Open( [](std::string selected_path) { /* process selected path */ } );
 
 ```
 ![](FileDialog.gif)
