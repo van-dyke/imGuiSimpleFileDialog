@@ -1,5 +1,4 @@
-# imGuiSimpleFileDialog
-Simple file dialog for ImGui library 
+# Simple File Dialog for imGUI library
 
 Under coding. Stay tuned.
 
