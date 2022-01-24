@@ -11,7 +11,7 @@ Example:
 using FD = ImGuiFileSystem::FileDialog< ImGuiFileSystem::FileDialogImpl >;
 ...
 
-FD::GetInstance().Open( [](std::string selected_path) { /* process selected path */ } );
+FD::GetInstance().Open( [](std::string const& selected_path) { /* process selected path */ } );
 
 ```
 ![](FileDialog.gif)
